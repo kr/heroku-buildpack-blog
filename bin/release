@@ -1,1 +1,5 @@
-echo '--- {}'
+cat <<end
+---
+default_process_types:
+  web: blog $HOME /tmp/dst
+end
